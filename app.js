@@ -1,6 +1,3 @@
-import dotenv from "dotenv";
-dotenv.config(); // charge les variables du fichier .env
-
 const btn = document.getElementById("chatbot-btn");
 const box = document.getElementById("chatbot-box");
 const messages = document.getElementById("messages");
