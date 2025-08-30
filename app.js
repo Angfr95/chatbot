@@ -6,9 +6,6 @@ const box = document.getElementById("chatbot-box");
 const messages = document.getElementById("messages");
 const input = document.getElementById("userInput");
 
-console.log(process.env.GROQ_API_KEY);
-console.log("test");
-
 // ✅ Ouvrir/fermer la fenêtre de chat avec le bouton
 btn.addEventListener("click", () => {
   box.style.display = (box.style.display === "flex") ? "none" : "flex";
@@ -31,8 +28,6 @@ input.addEventListener("keypress", function(e) {
     messages.scrollTop = messages.scrollHeight;
   }
 
-console.log(process.env.GROQ_API_KEY);
-console.log("test");
 
 async function sendMessage() {
   const input = document.getElementById("userInput");
@@ -64,6 +59,4 @@ async function sendMessage() {
   }
 }
 
-console.log(process.env.GROQ_API_KEY);
-console.log("test");
 
